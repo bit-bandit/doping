@@ -1,7 +1,6 @@
 /** @jsx h */
 import { h } from "preact";
 import { tw } from "@twind";
-import Counter from "../islands/Counter.tsx";
 import { configuration } from "../config.ts"
 
 export const handler: Handlers<User | null> = {
